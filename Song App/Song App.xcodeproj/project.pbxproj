@@ -13,6 +13,9 @@
 		C1235D5F249D1A870042F937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1235D5E249D1A870042F937 /* Assets.xcassets */; };
 		C1235D62249D1A870042F937 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1235D61249D1A870042F937 /* Preview Assets.xcassets */; };
 		C1235D65249D1A870042F937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1235D63249D1A870042F937 /* LaunchScreen.storyboard */; };
+		C1235D6D249D23650042F937 /* Alkaline Trio - Clavicle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1235D6C249D23650042F937 /* Alkaline Trio - Clavicle.mp3 */; };
+		C1235D6F249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1235D6E249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 */; };
+		C1235D71249D23760042F937 /* Still Corners - Fireflies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1235D70249D23760042F937 /* Still Corners - Fireflies.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C1235D61249D1A870042F937 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1235D64249D1A870042F937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1235D66249D1A870042F937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1235D6C249D23650042F937 /* Alkaline Trio - Clavicle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alkaline Trio - Clavicle.mp3"; sourceTree = "<group>"; };
+		C1235D6E249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blackbird Blackbird - Pure.mp3"; sourceTree = "<group>"; };
+		C1235D70249D23760042F937 /* Still Corners - Fireflies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Still Corners - Fireflies.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				C1235D58249D1A840042F937 /* AppDelegate.swift */,
 				C1235D5A249D1A840042F937 /* SceneDelegate.swift */,
 				C1235D5C249D1A840042F937 /* ContentView.swift */,
+				C1235D70249D23760042F937 /* Still Corners - Fireflies.mp3 */,
+				C1235D6E249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 */,
+				C1235D6C249D23650042F937 /* Alkaline Trio - Clavicle.mp3 */,
 				C1235D5E249D1A870042F937 /* Assets.xcassets */,
 				C1235D63249D1A870042F937 /* LaunchScreen.storyboard */,
 				C1235D66249D1A870042F937 /* Info.plist */,
@@ -134,6 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1235D65249D1A870042F937 /* LaunchScreen.storyboard in Resources */,
+				C1235D6D249D23650042F937 /* Alkaline Trio - Clavicle.mp3 in Resources */,
+				C1235D6F249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 in Resources */,
+				C1235D71249D23760042F937 /* Still Corners - Fireflies.mp3 in Resources */,
 				C1235D62249D1A870042F937 /* Preview Assets.xcassets in Resources */,
 				C1235D5F249D1A870042F937 /* Assets.xcassets in Resources */,
 			);

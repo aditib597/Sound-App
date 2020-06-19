@@ -16,6 +16,7 @@
 		C1235D6D249D23650042F937 /* Alkaline Trio - Clavicle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1235D6C249D23650042F937 /* Alkaline Trio - Clavicle.mp3 */; };
 		C1235D6F249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1235D6E249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 */; };
 		C1235D71249D23760042F937 /* Still Corners - Fireflies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1235D70249D23760042F937 /* Still Corners - Fireflies.mp3 */; };
+		C1235D73249D35630042F937 /* AboutTheAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1235D72249D35630042F937 /* AboutTheAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C1235D6C249D23650042F937 /* Alkaline Trio - Clavicle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alkaline Trio - Clavicle.mp3"; sourceTree = "<group>"; };
 		C1235D6E249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blackbird Blackbird - Pure.mp3"; sourceTree = "<group>"; };
 		C1235D70249D23760042F937 /* Still Corners - Fireflies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Still Corners - Fireflies.mp3"; sourceTree = "<group>"; };
+		C1235D72249D35630042F937 /* AboutTheAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				C1235D58249D1A840042F937 /* AppDelegate.swift */,
 				C1235D5A249D1A840042F937 /* SceneDelegate.swift */,
 				C1235D5C249D1A840042F937 /* ContentView.swift */,
+				C1235D72249D35630042F937 /* AboutTheAppView.swift */,
 				C1235D70249D23760042F937 /* Still Corners - Fireflies.mp3 */,
 				C1235D6E249D236E0042F937 /* Blackbird Blackbird - Pure.mp3 */,
 				C1235D6C249D23650042F937 /* Alkaline Trio - Clavicle.mp3 */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1235D73249D35630042F937 /* AboutTheAppView.swift in Sources */,
 				C1235D59249D1A840042F937 /* AppDelegate.swift in Sources */,
 				C1235D5B249D1A840042F937 /* SceneDelegate.swift in Sources */,
 				C1235D5D249D1A840042F937 /* ContentView.swift in Sources */,

@@ -14,27 +14,34 @@ struct ContentView: View {
     @State var songArray = ["Still Corners - Fireflies.mp3", "Blackbird Blackbird - Pure.mp3", "Alkaline Trio - Clavicle.mp3"]
     
     var body: some View {
-        VStack {
+        NavigationView {
+            VStack {
             Text("Welcome to the SONG APP!").font(Font.custom("MarkerFelt-Wide", size: 30)).foregroundColor(Color.pink)
             Image("dj").resizable().aspectRatio(contentMode: .fit).padding()
             HStack {
+            Button(action: {
+                self.playSound(soundNumber: 1)
+                           }) {
+                Image("cd").resizable().aspectRatio(contentMode: .fit)
+                           }
                 Button(action: {
-                    self.playSound(soundNumber: 1)
-                }) {
-                    Image("cd").resizable().aspectRatio(contentMode: .fit)
+                self.playSound(soundNumber: 2)
+                           }) {
+                Image("cd").resizable().aspectRatio(contentMode: .fit)
+                           }
+            Button(action: {
+                self.playSound(soundNumber: 3)
+                           }) {
+            Image("cd").resizable().aspectRatio(contentMode: .fit)
+                           }
+                       }
+                NavigationLink(destination: AboutTheAppView()) {
+                    Text("Go to the next screen.").font(Font.custom("MarkerFelt-Wide", size: 30))
                 }
-                Button(action: {
-                    self.playSound(soundNumber: 2)
-                }) {
-                    Image("cd").resizable().aspectRatio(contentMode: .fit)
-                }
-                Button(action: {
-                    self.playSound(soundNumber: 3)
-                }) {
-                   Image("cd").resizable().aspectRatio(contentMode: .fit)
-                }
-            }
-    }
+                
+            }.navigationBarTitle("Song App").font(Font.custom("MarkerFelt-Wide", size: 30))
+                  
+        }
        
 }
 
